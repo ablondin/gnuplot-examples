@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for script in *.gp; do \
+  echo 'Executing script '$script
+  gnuplot $script
+done
